@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #01030f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0b1463;
+    color: #fff;
+}
+
+td input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f9f9f9;
+}
+
+td input[type="text"]:focus {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.section-heading {
+    background-color: #a7fff3;
+    font-weight: bold;
+    text-align: left;
+}
+
+.faded {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.faded input {
+    background-color: #e0e0e0; /* Lighter gray for inputs */
+    color: #666; /* Faded text color */
+    pointer-events: none; /* Disable editing */
+}
+
