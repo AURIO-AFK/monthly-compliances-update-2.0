@@ -12,10 +12,10 @@ document.getElementById('submitBtn').addEventListener('click', function() {
         month: month,
         year: year
     };
-
+//alert(formData);
     // Store the form data in localStorage
     localStorage.setItem('formData', JSON.stringify(formData));
 
     // Redirect to receiver.html
-    window.location.href = 'Reciever.html';
+   window.location.href = '/Receiver.html';
 });
