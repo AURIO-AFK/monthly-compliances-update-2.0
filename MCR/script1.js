@@ -17,5 +17,5 @@ document.getElementById('submitBtn').addEventListener('click', function() {
     localStorage.setItem('formData', JSON.stringify(formData));
 
     // Redirect to receiver.html
-    window.location.href = 'index2.html';
+    window.location.href = 'Reciever.html';
 });
